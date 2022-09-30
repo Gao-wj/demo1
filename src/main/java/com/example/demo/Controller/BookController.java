@@ -26,7 +26,7 @@ public class BookController {
         Book b2 = new Book();
         b2.setId(1);
         b2.setName("朝花夕拾");
-        b2.setAuthor("鲁迅");
+        b2.setAuthor("鲁迅1");
         int updateBook = bookServiceAct.updateBook(b2);
         System.out.println("updateBook>>" + updateBook);
 
